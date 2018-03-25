@@ -47,5 +47,5 @@ def encode_image(text_to_encode, template_image="images/hidden.png"):
     encoded_image.save("images/encoded_image.png")
 
 if __name__ == '__main__':
-    encoding_message = input("Enter the encoding message: ")
-    encode_image(encodiing_message)
+    message = input("Enter the encoding message: ")
+    encode_image(message)
