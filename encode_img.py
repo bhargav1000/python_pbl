@@ -3,10 +3,7 @@ from PIL import Image, ImageFont, ImageDraw
 import textwrap
 
 def write_text(text_to_write, image_size):
-    """Writes text to an RGB image. Automatically line wraps
-
-    text_to_write: the text to write to the image
-    """
+    
     image_text = Image.new("RGB", image_size)
     font = ImageFont.load_default().font
     drawer = ImageDraw.Draw(image_text)
@@ -50,5 +47,5 @@ def encode_image(text_to_encode, template_image="images/hidden.png"):
     encoded_image.save("images/encoded_image.png")
 
 if __name__ == '__main__':
-    encodiing_message = input("Enter the encoding message: ")
+    encoding_message = input("Enter the encoding message: ")
     encode_image(encodiing_message)
