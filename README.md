@@ -1,5 +1,5 @@
 # Python PBL(Project Based Learning)
-A [Steganography](https://en.wikipedia.org/wiki/Steganography) based Python project for 6th semester written using Pillow. This script uses LSB Steganography an [Image based steganography](https://www.geeksforgeeks.org/image-steganography-in-cryptography/) method to encode text in an image using the ascii characters of the encoding text and embedding it in the image using the Least Significant Bit (LSB). This method helps send sensitive information using commonplace media such as images and audio. It helps store information in benign files. 
+A [Steganography](https://en.wikipedia.org/wiki/Steganography) based Python project for 6th semester College PBL event written using Pillow. This script uses LSB Steganography an [Image based steganography](https://www.geeksforgeeks.org/image-steganography-in-cryptography/) method to encode text in an image using the ascii characters of the encoding text and embedding it in the image using the Least Significant Bit (LSB). This method helps send sensitive information using commonplace media such as images and audio. It helps store information in benign files. 
 
 ## Requirements:
 - Pillow 1.1.7
